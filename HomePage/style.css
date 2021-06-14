@@ -1,6 +1,18 @@
-h1 {
-  color: green;
+*{
+  padding: 0%;
+  ;
 }
-p {
-  color:orangered;
+img{
+  position: absolute;  
+}
+#dropdown{
+  position: relative;
+  top: 130px;
+  background-color: #ABEDD8;
+  width: 20px;
+}
+#dropdown_img{
+  position: relative;
+  top: 2px
+  left: -1px
 }
