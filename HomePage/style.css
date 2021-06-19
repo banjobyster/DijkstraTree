@@ -8,7 +8,9 @@ body {
  font-weight: 700;
  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+div{
+  margin: 0%;
+}
 
 /*Header*/
 #logo {
@@ -57,12 +59,18 @@ body {
 
 
 /*Body Layout*/
-#ds{
-  background-color: #EEEEEE;
+#algo{
+  padding: 20px;
+  float: left;
   width: 100%;
+  background-color: #EEEEEE;
   color: #222831;
 }
-#algo{
+
+#ds{
+  padding: 20px;
+  float: left;
+  width: 100%;
   background-color: #222831;
   color: #EEEEEE;
 }
