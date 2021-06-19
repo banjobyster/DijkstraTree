@@ -1,18 +1,50 @@
-*{
-  padding: 0%;
-  ;
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+body {
+  margin: 0%;
+  background-color: #fff;
 }
-img{
-  position: absolute;  
+
+#logo {
+  float: left;
+  margin: 8px 15px;
 }
-#dropdown{
-  position: relative;
-  top: 150px;
-  background-color: #ABEDD8;
-  width: 20px;
+.search {
+  float: right;
+  margin-right: 10px;
 }
-#dropdown_img{
-  position: relative;
-  top: 2px
-  left: -1px
+#searchbtn, #search{
+  border: 0px;
+  padding: 10px;
+  margin-top: 30px;
+  margin-right: 0px;
+  margin-bottom: 10%;
+  font-size: 16px;
+  background-color: white;
+}
+
+#Login {
+  border: none;
+  /* color: white; */
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 19px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  /* background-color: #fff; */
+  color: white;
+  float: right;
+  margin-top: 30px;
+  margin-right: 25px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-family: 'Pangolin', cursive;
+}
+
+#Login:hover {
+  color: #FFF5AB;
+}
+#header{
+  background-color: #867AE9;
+  overflow: hidden;
 }
