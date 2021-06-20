@@ -1,18 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+* {
+  text-decoration: none;
+}
 body {
   margin: 0%;
   background-color: #fff;
 }
 
-.ht{
- font-weight: 700;
- font-family: Verdana, Geneva, Tahoma, sans-serif;
+.ht {
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-div{
+div {
   margin: 0%;
 }
 
 /*Header*/
+#home {
+  float: left;
+  font-size: 30px;
+  margin-top: 30px;
+  padding: 10px;
+  background: none;
+  border: 5px;
+  color: white;
+}
+#home:hover {
+  text-decoration: underline;
+  color: #fff5ab;
+  cursor: pointer;
+}
 #logo {
   float: left;
   margin: 8px 15px;
@@ -21,16 +38,33 @@ div{
   float: right;
   margin-right: 10px;
 }
-#searchbtn, #search{
+#searchbtn,
+#search {
   border: 0px;
   padding: 10px;
   margin-top: 30px;
   margin-right: 0px;
-  margin-bottom: 10%;
+  margin-bottom: 10px;
   font-size: 16px;
   background-color: white;
 }
 
+#search {
+  float: left;
+  display: none;
+}
+#searchbtn:hover ~ #search {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  left: 2px;
+}
+#search:hover, #search:focus {
+  display: block;
+  position: relative;
+  left: 2px;
+  text-decoration: none;
+}
 #Login {
   border: none;
   padding: 10px;
@@ -45,48 +79,64 @@ div{
   margin-right: 25px;
   border-radius: 4px;
   font-weight: bold;
-  font-family: 'Pangolin', cursive;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #Login:hover {
-  color: #FFF5AB;
+  color: #fff5ab;
 }
-#header{
-  background-color: #00ADB5;
+#header {
+  background-color: #00adb5;
   overflow: hidden;
 }
-
-
 
 /*Body Layout*/
-#algo{
+#algo {
   padding: 20px;
   float: left;
   width: 100%;
-  background-color: #EEEEEE;
-  color: #222831;
+  background-color: #867AE9;
+  color: #faff94cb;
+  text-shadow: 
+  0.8px 0.8px 1px rgba(255,255,255,0.4),
+  -0.8px -0.8px 1px rgba(0,0,0,0.08);
 }
 
-#ds{
+#ds {
   padding: 20px;
   float: left;
   width: 100%;
-  background-color: #222831;
-  color: #EEEEEE;
+  background-color: #f9ff94;
+  color: #857ae9cb;
+  text-shadow: 
+  0.8px 0.8px 1px rgba(255,255,255,0.4),
+  -0.8px -0.8px 1px rgba(0,0,0,0.08);
 }
-#BodyTab{
+#BodyTab {
   overflow: hidden;
 }
-.column{
+.column {
   margin: 0px;
   padding: 0px;
 }
 
-
-
-
-/*Card*/
-.card,.card1{
+/*Card - Algorithm  Card1- DS*/
+.card,
+.card1 {
+  box-shadow:
+  0 -2.8px 2.2px rgba(255, 255, 255, 0.034),
+  0 -6.7px 5.3px rgba(255, 255, 255, 0.034),
+  0 -12.5px 10px rgba(255, 255, 255, 0.06),
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072)
+;
+color: transparent;
+text-shadow: 
+0.5px 0.5px 1px rgba(255,255,255,0.4),
+-0.5px -0.5px 1px rgba(0,0,0,0.4);
+  border-radius: 5px;
   border: none;
   padding: 15px 32px;
   text-align: center;
@@ -95,75 +145,105 @@ div{
   font-size: 24px;
   min-width: 300px;
   margin: 40px;
-  transition-duration: 0.2s;
-}
-.col1{
-  background-color: #FFB6B9;
-}
-.col2{
-  background-color: #FAE3D9;
-}
-.col3{
-  background-color: #BBDED6;
-}
-.col4{
-  background-color: #61C0BF;
 }
 
-.col1a{
-  background-color: #F67280;
+/*Algorithm Color*/
+.col1 {
+  background-color: 	#f37068;
 }
-.col2a{
-  background-color: #C06C84;
+.col2 {
+  background-color: #f2afce;
 }
-.col3a{
-  background-color: #6C5B7B;
+.col3 {
+  background-color: 	#ffe8ee;
 }
-.col4a{
-  background-color: #355C7D;
-}
-
-.card1{
-  color: #EEEEEE;
+.col4 {
+  background-color: #aad5dc;
 }
 .card{
-  color: #222831;
+  color: #21415193;
+}
+.card:hover {
+  text-shadow: 
+  -0.5px -0.5px 1px rgba(255,255,255,0.4),
+  0.5px 0.5px 1px rgba(0,0,0,0.4);
+  box-shadow:
+  0 -2.8px 2.2px rgba(255, 255, 255, 0.034) inset,
+  0 -6.7px 5.3px rgba(255, 255, 255, 0.034) inset,
+  0 -12.5px 10px rgba(255, 255, 255, 0.06) inset,
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034) inset,
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048) inset,
+  0 12.5px 10px rgba(0, 0, 0, 0.06) inset
+;
+cursor: pointer;
 }
 
-
-.card:hover{
-  background-color:#222831;
-  color: #EEEEEE;
-  
+/*Data Structure Color*/
+.col1a {
+  background-color: #87ffb0;
+}
+.col2a {
+  background-color: #ffc3c3;
+}
+.col3a {
+  background-color: #92f5ff;
+}
+.col4a {
+  background-color: #fae3d9;
 }
 .card1:hover{
-  background-color:#EEEEEE;
-  color: #222831;
+text-shadow: 
+-0.5px -0.5px 1px rgba(255,255,255,0.4),
+0.5px 0.5px 1px rgba(0,0,0,0.4);
+  box-shadow:
+  0 -2.8px 2.2px rgba(255, 255, 255, 0.034) inset,
+  0 -6.7px 5.3px rgba(255, 255, 255, 0.034) inset,
+  0 -12.5px 10px rgba(255, 255, 255, 0.06) inset,
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034) inset,
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048) inset,
+  0 12.5px 10px rgba(0, 0, 0, 0.06) inset
+;
+cursor: pointer;
+}
+.card1{
+  color: #21415193;
 }
 
 @media screen and (max-width: 1300px) {
-  .card,.card1{
+  .card,
+  .card1 {
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06)
+;
+  border-radius: 5px;
     border: none;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 10px;
-  min-width: 190px;
-  transition-duration: 0.2s;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    min-width: 190px;
   }
 }
 @media screen and (max-width: 700px) {
-  .card,.card1{
+  .card,
+  .card1 {
+    box-shadow: none;
+    border-radius: 5px;
     border: none;
-  padding: 5px 8px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  margin: 3px;
-  min-width: 120px;
-  transition-duration: 0.2s; /* The width is 100%, when the viewport is 800px or smaller */
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 3px;
+    min-width: 120px;
+  }
+  #search{
+    width: 100px;
+    overflow: scroll;
   }
 }
