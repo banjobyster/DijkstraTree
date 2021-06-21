@@ -124,7 +124,7 @@ div {
 .card,
 .card1 {
   box-shadow:
-  0 -2.8px 2.2px rgba(255, 255, 255, 0.034),
+  0 -2.2px 2.2px rgba(255, 255, 255, 0.34),
   0 -6.7px 5.3px rgba(255, 255, 255, 0.034),
   0 -12.5px 10px rgba(255, 255, 255, 0.06),
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
@@ -168,10 +168,10 @@ text-shadow:
   -0.5px -0.5px 1px rgba(255,255,255,0.4),
   0.5px 0.5px 1px rgba(0,0,0,0.4);
   box-shadow:
-  0 -2.8px 2.2px rgba(255, 255, 255, 0.034) inset,
+  0 -2.2px 2.2px rgba(255, 255, 255, 0.34) inset,
   0 -6.7px 5.3px rgba(255, 255, 255, 0.034) inset,
   0 -12.5px 10px rgba(255, 255, 255, 0.06) inset,
-  0 2.8px 2.2px rgba(0, 0, 0, 0.034) inset,
+  0 2.8px 2.2px rgba(0, 0, 0, 0.34) inset,
   0 6.7px 5.3px rgba(0, 0, 0, 0.048) inset,
   0 12.5px 10px rgba(0, 0, 0, 0.06) inset
 ;
@@ -196,10 +196,10 @@ text-shadow:
 -0.5px -0.5px 1px rgba(255,255,255,0.4),
 0.5px 0.5px 1px rgba(0,0,0,0.4);
   box-shadow:
-  0 -2.8px 2.2px rgba(255, 255, 255, 0.034) inset,
+  0 -2.8px 2.2px rgba(255, 255, 255, 0.34) inset,
   0 -6.7px 5.3px rgba(255, 255, 255, 0.034) inset,
   0 -12.5px 10px rgba(255, 255, 255, 0.06) inset,
-  0 2.8px 2.2px rgba(0, 0, 0, 0.034) inset,
+  0 2.8px 2.2px rgba(0, 0, 0, 0.34) inset,
   0 6.7px 5.3px rgba(0, 0, 0, 0.048) inset,
   0 12.5px 10px rgba(0, 0, 0, 0.06) inset
 ;
@@ -213,9 +213,12 @@ cursor: pointer;
   .card,
   .card1 {
   box-shadow:
+  0 -2.2px 2.2px rgba(255, 255, 255, 0.34),
+  0 -6.7px 5.3px rgba(255, 255, 255, 0.034),
+  0 -12.5px 10px rgba(255, 255, 255, 0.06),
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
   0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-  0 12.5px 10px rgba(0, 0, 0, 0.06)
+  0 7.5px 10px rgba(0, 0, 0, 0.06)
 ;
   border-radius: 5px;
     border: none;
