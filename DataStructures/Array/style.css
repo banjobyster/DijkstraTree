@@ -132,7 +132,38 @@ div {
   overflow:hidden;
 }
 
+/* Navigation Bar */
+.navbar{
+  background-color: white;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.3),
+    -4px -4px 6px 0 rgba(116, 125, 136, 0.2),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, 0.2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  white-space: nowrap;
+}
 
+
+.navbar a{
+  font-size: 16px;
+  padding: 10px;
+  padding-top: 50px;
+  cursor: pointer;
+  margin-right: 50px;
+}
+
+.navbar a:first-child{
+  margin-left: 50px;
+}
+
+
+.navbar a:hover{
+  background-color: #a3b1c6;
+  text-shadow: -0.5px -0.5px 1px rgba(255, 255, 255, 0.4),
+    0.5px 0.5px 1px rgba(0, 0, 0, 0.4);
+}
 
 
 /*Body*/
