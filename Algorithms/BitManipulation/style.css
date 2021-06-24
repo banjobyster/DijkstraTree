@@ -153,53 +153,6 @@ div {
 }
 
 
-/*.card- Algorithm   .card1- DS*/
-.card, .card1 {
-  box-shadow:
-  0 -2.2px 2.2px rgba(255, 255, 255, 0.34),
-  0 -6.7px 5.3px rgba(255, 255, 255, 0.034),
-  0 -12.5px 10px rgba(255, 255, 255, 0.06),
-  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-  0 12.5px 10px rgba(0, 0, 0, 0.06),
-  0 22.3px 17.9px rgba(0, 0, 0, 0.072)
-;
-color: transparent;
-text-shadow: 
-0.5px 0.5px 1px rgba(255,255,255,0.4),
--0.5px -0.5px 1px rgba(0,0,0,0.4);
-  border-radius: 5px;
-  border: none;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 24px;
-  min-width: 300px;
-  margin: 40px;
-  background-color: #e0e5ec;
-}
-
-.card:hover,.card1:hover {
-  text-shadow: 
-  -0.5px -0.5px 1px rgba(255,255,255,0.4),
-  0.5px 0.5px 1px rgba(0,0,0,0.4);
-  box-shadow:
-  0 -2.2px 2.2px rgba(255, 255, 255, 0.34) inset,
-  0 -6.7px 5.3px rgba(255, 255, 255, 0.034) inset,
-  0 -12.5px 10px rgba(255, 255, 255, 0.06) inset,
-  0 2.8px 2.2px rgba(0, 0, 0, 0.34) inset,
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048) inset,
-  0 12.5px 10px rgba(0, 0, 0, 0.06) inset
-;
-cursor: pointer;
-}
-
-.card1, .card{
-  color: #21415193;
-}
-
-
 
 
 /*FOOTER*/
@@ -280,26 +233,7 @@ hr
 /*RESPONSIVE*/
 
 @media screen and (max-width: 1300px) {
-  .card,
-  .card1 {
-  box-shadow:
-  0 -2.2px 2.2px rgba(255, 255, 255, 0.34),
-  0 -6.7px 5.3px rgba(255, 255, 255, 0.034),
-  0 -12.5px 10px rgba(255, 255, 255, 0.06),
-  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-  0 7.5px 10px rgba(0, 0, 0, 0.06)
-;
-  border-radius: 5px;
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4vw;
-    min-width: 190px;
-  }
+
   .footerbutton{
     font-size: 12px;
   }
@@ -308,21 +242,8 @@ hr
 
 
 @media screen and (max-width: 700px) {
-  .footerbutton,.card,.card1,.card:hover,.card1:hover,.footerbutton:hover{
+  .footerbutton,.footerbutton:hover{
     box-shadow: none;
-  }
-  .card,
-  .card1 {
-    box-shadow: none;
-    border-radius: 5px;
-    border: none;
-    padding: 5px 8px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-    margin: 3px;
-    min-width: 120px;
   }
   #search{
     width: 100px;
