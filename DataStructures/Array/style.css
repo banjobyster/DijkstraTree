@@ -143,26 +143,39 @@ div {
     inset 4px 4px 6px 0 rgba(0, 0, 0, 0.2);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   white-space: nowrap;
+
 }
 
+.navbar::-webkit-scrollbar{
+  height: 8px;
+  border: 20px purple;
+}
+.navbar::-webkit-scrollbar-thumb{
+  background-color: #035486;
+  border-radius: 20px;
+}
+.navbar::-webkit-scrollbar-track{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);  
+  border-radius: 20px;
+}
 
 .navbar a{
   font-size: 16px;
-  padding: 10px;
   padding-top: 50px;
+  padding: 10px;
   cursor: pointer;
+  color: #005f99;
   margin-right: 50px;
 }
 
-.navbar a:first-child{
-  margin-left: 50px;
-}
+
 
 
 .navbar a:hover{
   background-color: #a3b1c6;
   text-shadow: -0.5px -0.5px 1px rgba(255, 255, 255, 0.4),
     0.5px 0.5px 1px rgba(0, 0, 0, 0.4);
+    color: #035486;
 }
 
 
