@@ -68,24 +68,26 @@ div {
   float: right;
   margin-top: 90px;
   margin-right: 30px;
-  background: #fff;
+  background: #e0e5ec;
+  
+}
+#search-bar {
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
   height: 30px;
   border-radius: 30px;
   padding: 10px 20px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
   box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.3),
     -4px -4px 6px 0 rgba(116, 125, 136, 0.2),
     inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
     inset 4px 4px 6px 0 rgba(0, 0, 0, 0.2);
 }
-
-.search-container:hover > .search-input {
+#search-bar:hover > .search-input {
   width: 250px;
 }
-
 .search-container .search-input {
   background: transparent;
   border: none;
@@ -99,7 +101,36 @@ div {
   width: 250px;
 }
 .search-container .search-btn .fas {
+  float: right;
   color: #005f99;
+}
+#list {
+  background-color: #fff;
+  position: absolute;
+  z-index: 1;
+  overflow-y: scroll;
+  max-height: 40vh;
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+  width: 18.5%;
+  list-style-type: none;
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.3),
+    -4px -4px 6px 0 rgba(116, 125, 136, 0.2),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, 0.2);
+    -webkit-overflow-scrolling: touch;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+#list li {
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+#list li:hover {
+  background-color: #ebf0f7;
 }
 #Login {
   border: none;
