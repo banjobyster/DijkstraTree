@@ -152,11 +152,11 @@ div {
 }
 .navbar::-webkit-scrollbar-thumb{
   background-color: #035486;
-  border-radius: 20px;
+  /* border-radius: 20px; */
 }
 .navbar::-webkit-scrollbar-track{
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);  
-  border-radius: 20px;
+  /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);   */
+  /* border-radius: 20px; */
 }
 
 .navbar a{
@@ -178,6 +178,15 @@ div {
     color: #035486;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .cardholder {
+  padding-top: 60px;
+}
 
 /*Body*/
 .cardholder{
