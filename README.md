@@ -1,2 +1,2 @@
 # DijkstraTree
-Hum paanch milke bana rhe hai website taaki google hume job de huehue
+Website aimed for beginners to learn Data structures and algorithms thorugh visual simulations and exercises
